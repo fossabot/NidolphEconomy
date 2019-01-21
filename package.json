@@ -1,0 +1,13 @@
+{
+  "name": "pex",
+  "description": "Bot for Discord",
+  "version": "0.1.0",
+  "main": "sherman.js",
+  "scripts": {
+    "start": "sherman.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security"
+  }
+}
