@@ -44,7 +44,7 @@ client.on('message', async message => {
     if (err) console.error(err)
   });
 
-  const ayy = client.emojis.find("name", "immaPutinHer");
+  const ayy = ":x: ||";
   if(!message.content.startsWith("!")) return;
   const args = message.content.slice("!".length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
@@ -185,7 +185,7 @@ client.on('message', async message => {
 
     if(command === "admin") {
       if (!message.guild) return; // Во избежании ошибки
-      if(userData.access < "3") return message.channel.send(ayy + ` || Недостаточно прав.`);
+      if(userData.access < "3" || message.author.id !== botowner) return message.channel.send(ayy + ` || Недостаточно прав.`);
       if(!args[0] || args[0] === "") {
         message.channel.send(`Данная команда работает ТОЛЬКО на тех, у кого 3 уровень доступа.\n\n!${command} setaccess <@пользователь/ID> <уровень доступа> - выдать спец. права\n!${command} managecmd <название команды> <режим> - установить работоспособность команды`);
       }
