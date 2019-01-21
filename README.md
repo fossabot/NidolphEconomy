@@ -12,3 +12,7 @@
 
 ## Лицензия
 [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/) || [https://github.com/NidolphDevelopers/NidolphEconomy/blob/master/LICENSE](https://github.com/NidolphDevelopers/NidolphEconomy/blob/master/LICENSE)
+
+## Разработчик
+- `sqdEclipse` || [https://vladciphersky.xyz](https://vladciphersky.xyz) || Основной код
+- `Maxesh` || [https://vk.com/relqpse](https://vk.com/relqpse) || Помощь в фиксе некоторых дыр
